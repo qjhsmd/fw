@@ -1,0 +1,47 @@
+// 建议布局方式 rem + flex +  多定义公共样式 禁止重复写样式   开发时就要适配 各个尺寸  
+// 建议摆脱jq  
+//用min-width时，小的放上面大的在下面，同理如果是用max-width那么就是大的在上面，小的在下面
+
+/* 公用样式 */
+.font-size12{
+  font-size: 12px;
+}
+.font-size14{
+  font-size: 14px;
+}
+.font-size16{
+  font-size: 16px;
+}
+.font-size18{
+  font-size: 18px;
+}
+.font-size20{
+  font-size: 20px;
+}
+@media screen and (min-width: 1024px){  /*>=1024的设备*/ 
+ 
+    } 
+
+@media screen and (min-width: 1100px) {/*>=1100的设备*/
+  
+    } 
+@media screen and (min-width: 1280px) {/*>=1280的设备*/
+     .font-size20{
+       font-size: 12px;
+     }
+    } 
+
+@media screen and (min-width: 1366px) {/*>=1366的设备 主流 */
+   
+   }  
+
+@media screen and (min-width: 1440px) {/*>=1440的设备*/
+  
+  } 
+
+@media screen and (min-width: 1680px) {/*>=1680的设备*/
+    
+  } 
+@media screen and (min-width: 1920px) {/*>=1920的设备 主流 */
+   
+} 
